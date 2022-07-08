@@ -6,6 +6,7 @@ import "./Global.css";
 import SecondPage from "./pages/secondPage";
 import ThirdPage from "./pages/thirdPage";
 import FinalPage from "./pages/finalPage";
+import { Mid } from "./components/Mid";
 function App() {
   return (
     <>
@@ -27,9 +28,15 @@ function App() {
           />
           <Route
             exact
-            path="/finalPage"
+            path="/details/:id"
             element={<FinalPage />}
             key="route-result-screen"
+          />
+          <Route
+            exact
+            path="/test"
+            element={<Mid />}
+            key="route-test-screen"
           />
         </Routes>
       </BrowserRouter>
