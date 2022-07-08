@@ -16,13 +16,13 @@ function App() {
           <Route exact path="/" element={<IntroPage />} key="route-intro-screen" />
           <Route
             exact
-            path="/secondPage"
+            path="/location"
             element={<SecondPage />}
             key="route-result-screen"
           />
           <Route
             exact
-            path="/thirdPage"
+            path="/chenimari"
             element={<ThirdPage />}
             key="route-result-screen"
           />

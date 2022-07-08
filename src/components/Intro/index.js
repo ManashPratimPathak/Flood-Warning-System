@@ -11,7 +11,7 @@ const Intro = () => {
       <div className="container-2">
         <h1>Flood Early Warning System</h1>
         <p>Flood Early Warning System (FLEWS) is a system by which flood induced hazards can be minimized and prevented.</p>
-        <a href="/secondPage"><button className="button-page1" >Let's Proceed</button></a>
+        <a href="/location"><button className="button-page1" >Let's Proceed</button></a>
 
       </div>
     </div>

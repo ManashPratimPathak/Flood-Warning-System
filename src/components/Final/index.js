@@ -26,7 +26,7 @@ function Final() {
     console.log(id.substring(0, 2))
 
     axios.post('https://backend-flood.herokuapp.com/waterlevel_prediction', {
-      date: id.substring(0, 2), headers: { "Access-Control-Allow-Origin": "*" },
+      date: id.substring(0, 2), headers: { "Access-Control-Allow-Origin": "https://flood-warning-system.vercel.app/" },
     })
       .then(function (response) {
         console.log(response);
