@@ -1,0 +1,22 @@
+.menu-item {
+    padding: 0 40px;
+    margin: 5px 10px;
+    user-select: none;
+    cursor: pointer;
+    border: none;
+}
+
+.menu-item-wrapper.active {
+    background: rgb(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+}
+
+/* .menu-item.active {
+
+} */
+
+.scroll-menu-arrow {
+    padding: 20px;
+    cursor: pointer;
+}

@@ -1,4 +1,4 @@
-.date-btn{
+.date-btn {
     border-radius: 10px;
     padding: 0.25 0.5;
     width: 50px;
@@ -8,12 +8,27 @@
     transition: 500ms;
 }
 
-.container-rr-1{
+.container-rr-1 {
     width: 20%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.date-btn:hover{
+
+.date-btn:hover {
     transform: scale(0.9);
+}
+
+.container-r-2 {
+    position: relative;
+}
+
+.container-r-2 span {
+    padding: 0.5rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 10px);
+    background: rgb(0, 0, 0, 0.25);
+    border-radius: 8px;
+    transition: 0.2s;
 }
