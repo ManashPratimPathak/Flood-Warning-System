@@ -5,6 +5,7 @@ import { Footer } from "./components/shared/Footer";
 import "./Global.css";
 import SecondPage from "./pages/secondPage";
 import ThirdPage from "./pages/thirdPage";
+import FinalPage from "./pages/finalPage";
 function App() {
   return (
     <>
@@ -22,6 +23,12 @@ function App() {
             exact
             path="/thirdPage"
             element={<ThirdPage />}
+            key="route-result-screen"
+          />
+          <Route
+            exact
+            path="/finalPage"
+            element={<FinalPage />}
             key="route-result-screen"
           />
         </Routes>

@@ -1,13 +1,13 @@
 import React from 'react'
 import logos from "../../assests/images/logoS.png"
-
+//
 const styles = {
   position: "absolute",
   top: "0",
   width: "100vw",
   backgroundColor: "transparent !important"
 }
-
+//
 export default function  Header
 () {
   return (
