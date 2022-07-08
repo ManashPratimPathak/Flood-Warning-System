@@ -10,8 +10,8 @@ function Third() {
             <div className="container-rr-1">
                 <h5>Dates</h5>
                 <a href="/finalPage"><button className="date-btn">{date}</button></a>
-                <a><button className="date-btn">{date + 1}</button></a>
-                <a><button className="date-btn">{date + 2}</button></a> 
+                <a href="/finalPage"><button className="date-btn">{date + 1}</button></a>
+                <a href="/finalPage"><button className="date-btn">{date + 2}</button></a>
             </div>
             <div className="container-r-2">
                 <div className="image-wrapper">
