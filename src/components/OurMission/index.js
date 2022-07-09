@@ -7,7 +7,7 @@ function OurMission() {
       <h1>THE PRIME VISION</h1>
       <br />
       <h4>
-        “I want to be alive,to build a society, I have a promise to build a
+        “I want to be alive, to build a society, I have a promise to build a
         society Where the value of life is more than that of gold”
         <br />
         Dr. Bhupen Hazarika
