@@ -19,6 +19,14 @@ const image = {
   102: image102
 }
 
+const mapRoute = {
+  0: 'https://express-mapbackend.herokuapp.com/',
+  99: 'https://express-mapbackend.herokuapp.com/1',
+  100: 'https://express-mapbackend.herokuapp.com/2',
+  101: 'https://express-mapbackend.herokuapp.com/3',
+  102: 'https://express-mapbackend.herokuapp.com/4',
+}
+
 function Final() {
 
   const { id } = useParams();
@@ -58,7 +66,7 @@ function Final() {
           <a href="#Result">
             <button className="btn-data">Details</button>
           </a>
-          <a href="/Maps">
+          <a href={error ? mapRoute[0] : data < 100 ? mapRoute[99] : data < 101 ? mapRoute[100] : data < 102 ? mapRoute[101] : mapRoute[102]}>
             <button className="btn-map">Generate Map</button>
           </a>
           
