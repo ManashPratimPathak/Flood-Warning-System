@@ -5,22 +5,22 @@ import './mid.css';
 
 // list of items
 const list = [
-  { name: '29th June' },
-  { name: '30th June' },
-  { name: '01st July' },
-  { name: '02nd July' },
-  { name: '03rd July' },
-  { name: '04th July' },
-  { name: '05th July' },
-  { name: '06th July' },
-  { name: '07th July' },
-  { name: '08th July' },
-  { name: '09th July' },
-  { name: '10th July' },
-  { name: '11th July' },
-  { name: '12th July' },
-  { name: '13th July' },
-  { name: '14th July' },
+  { name: '29th June 2022' },
+  { name: '30th June 2022' },
+  { name: '01st July 2022' },
+  { name: '02nd July 2022' },
+  { name: '03rd July 2022' },
+  { name: '04th July 2022' },
+  { name: '05th July 2022' },
+  { name: '06th July 2022' },
+  { name: '07th July 2022' },
+  { name: '08th July 2022' },
+  { name: '09th July 2022' },
+  { name: '10th July 2022' },
+  { name: '11th July 2022' },
+  { name: '12th July 2022' },
+  { name: '13th July 2022' },
+  { name: '14th July 2022' },
 
 ];
 
@@ -85,7 +85,7 @@ export class Mid extends Component {
     const menu = this.menuItems;
 
     return (
-      <div style={{ "margin": '5vh 0 0 0' }}>
+      <div style={{ "margin": '8vh 0 2vh 0', 'background': 'rgb(0,0,0,0.3)' }}>
         <ScrollMenu
           data={menu}
           arrowLeft={ArrowLeft}

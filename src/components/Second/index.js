@@ -12,6 +12,7 @@ const Second = () => {
         <Dropdown />
       </div>
       <div className="container-r-2">
+        <h3 style={{ 'textAlign': 'center' }}>Assam</h3>
         <div className="image-wrapper">
           <img className="resultMap" src={assamPic}></img>
         </div>
