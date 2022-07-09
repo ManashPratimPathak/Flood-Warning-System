@@ -10,7 +10,7 @@ function Dropdown() {
                 <ul class="dropdown-menu">
                     {/* <li><a class="dropdown-item" href="#">Jorhati</a></li>
                     <li><a class="dropdown-item" href="#">Guwahati</a></li> */}
-                    <li><a class="dropdown-item" href="/chenimari">Chenimari</a></li>
+                    <li><a class="dropdown-item" href="/chenimari">Chenimari (Khowang)</a></li>
                 </ul>
             </div>
         </>
