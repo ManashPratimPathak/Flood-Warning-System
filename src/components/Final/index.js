@@ -78,7 +78,7 @@ function Final() {
 
               Long Term<br />
               Structures to Conserve Nature<br />
-              Renewal of Wetlands,Preventing Erosion and Maintaining Land Mass Elevation,Recharge and Replenish Groundwater<br /><br />
+              Renewal of Wetlands, Preventing Erosion and Maintaining Land Mass Elevation, Recharge and Replenish Groundwater<br /><br />
 
               {/* Controlled development of the Area<br />
               Building Bye-laws,Development Control Norms, Land-Use analysis based on these factors<br /><br />
