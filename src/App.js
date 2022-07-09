@@ -6,6 +6,8 @@ import "./Global.css";
 import SecondPage from "./pages/secondPage";
 import ThirdPage from "./pages/thirdPage";
 import FinalPage from "./pages/finalPage";
+import OurTeamPage from "./pages/ourTeamPage";
+import OurMissionPage from "./pages/ourMissionPage";
 import { Mid } from "./components/Mid";
 function App() {
   return (
@@ -37,6 +39,18 @@ function App() {
             path="/test"
             element={<Mid />}
             key="route-test-screen"
+          />
+          <Route
+            exact
+            path="/ourMission"
+            element={<OurMissionPage />}
+            key="our-mission-screen"
+          />
+          <Route
+            exact
+            path="/ourTeam"
+            element={<OurTeamPage />}
+            key="our-team-screen"
           />
         </Routes>
       </BrowserRouter>
