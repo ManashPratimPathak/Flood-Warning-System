@@ -69,15 +69,15 @@ function Final() {
           <a href={error ? mapRoute[0] : data < 100 ? mapRoute[99] : data < 101 ? mapRoute[100] : data < 102 ? mapRoute[101] : mapRoute[102]}>
             <button className="btn-map">Generate Map</button>
           </a>
-          
+
         </div>
       </div>
-      <div className="Legends" style={{display: "flex", justifyContent: "space-around"}}>
-          <div className="legend-items"> <p className="">  <img className="legend-pic" src={red}></img> Flood area</p> </div>
-          <div className="legend-items"> <p className=""> <img className="legend-pic" src={orange}></img> Buffer zone</p> </div>
-          <div className="legend-items"> <p className=""> <img className="legend-pic" src={green}></img> Safe area</p></div>
-            
-          </div>
+      <div className="Legends" style={{ display: "flex", justifyContent: "space-around" }}>
+        <div className="legend-items"> <p className="">  <img className="legend-pic" src={red}></img> Flood area</p> </div>
+        <div className="legend-items"> <p className=""> <img className="legend-pic" src={orange}></img> Buffer zone</p> </div>
+        <div className="legend-items"> <p className=""> <img className="legend-pic" src={green}></img> Safe area</p></div>
+
+      </div>
       <div id="Result" className="resultPage-div-f">
         <div className="container-rr-1" style={{ width: "95%" }}>
           <div className="data-div" style={{ display: "flex", width: "100%", justifyContent: "space-evenly", marginBottom: "40px" }}>
@@ -98,7 +98,7 @@ function Final() {
               Renewal of Wetlands, Preventing Erosion and Maintaining Land Mass Elevation, Recharge and Replenish Groundwater<br /><br />
 
               Controlled development of the Area<br />
-              Building Bye-laws,Development Control Norms, Land-Use analysis based on these factors<br /><br />
+              Building Bye-laws, Development Control Norms, Land-Use analysis based on these factors<br /><br />
 
               Flood-Based Farming System<br />
               Planning of Water Distribution, Field Water Management, Groundwater Use, Agronomic Practices, Multi-functional use
