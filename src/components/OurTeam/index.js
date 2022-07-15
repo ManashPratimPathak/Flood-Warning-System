@@ -18,7 +18,7 @@ function OurTeam(){
     return(<div style={{ height: "100vh", overflowY: "scroll" }}>
         <div className="ourTeam-div">
             <h3>Our Team</h3>
-            <div className="card-div" style={{display: "flex", flexDirection: "row", flexWrap: "wrap", justifyContent: "space-evenly"}}> {Teams.map(createCard)} </div>
+            <div className="card-div" style={{display: "flex", flexDirection: "row", flexWrap: "wrap", justifyContent: "space-evenly", gap: "2rem"}}> {Teams.map(createCard)} </div>
             
         </div>
     </div>
