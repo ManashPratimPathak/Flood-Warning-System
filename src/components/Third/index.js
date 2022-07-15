@@ -19,7 +19,7 @@ function Third() {
                 </div> */}
                 <div className="container-r-2">
                     <div className="image-wrapper">
-                        <span>Chenimari khowang</span>
+                        <span>Chenimari (Khowang)</span>
                         <img className="resultMap" src={mappic}></img>
                     </div>
                 </div>

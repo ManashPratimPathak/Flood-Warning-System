@@ -70,7 +70,7 @@ export class Mid extends Component {
   state = { redirect: null };
 
   onSelect = key => {
-    console.log('fuck off')
+    console.log('fo')
     this.setState({ selected: key });
     this.setState({ redirect: '/details/' + key })
   }
