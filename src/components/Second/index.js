@@ -11,12 +11,14 @@ import lightBlue from '../../assests/images/lightBlue.png'
 import blue from '../../assests/images/blue.png'
 import brown from '../../assests/images/brown.png'
 
-const style1={ display: "flex", justifyContent: "space-around", backGround: "", position: "relative", bottom: "5rem", backgroundColor: "rgba(255, 255, 255, 0.5)",
-columnGap: "2rem", flexWrap: "wrap", padding: " 0 20px", margin: "0", borderRadius: "10px", rowGap: "0.65rem "};
+const style1 = {
+  display: "flex", justifyContent: "space-around", backGround: "", position: "relative", bottom: "5rem", backgroundColor: "rgba(255, 255, 255, 0.5)",
+  columnGap: "2rem", flexWrap: "wrap", padding: " 0 20px", margin: "0", borderRadius: "10px", rowGap: "0.65rem "
+};
 
-const style2={display: "flex", justifyContent: "center", alignItems: "center"};
+const style2 = { display: "flex", justifyContent: "center", alignItems: "center" };
 
-const marginStyle = {margin: "0", fontSize: "0.75rem"};
+const marginStyle = { margin: "0", fontSize: "0.75rem" };
 
 const Second = () => {
 
@@ -27,7 +29,7 @@ const Second = () => {
         <h3 className="result-details"> Water Level: 80m</h3> */}
         <Dropdown />
       </div>
-      <div className="container-r-2" style={{paddingTop: "3.5rem"}}>
+      <div className="container-r-2" style={{ paddingTop: "3.5rem" }}>
         <h3 style={{ 'textAlign': 'center' }}>Assam</h3>
         <div className="image-wrapper">
           <img className="resultMap" src={assamPic} alt="assam-pic"></img>
@@ -37,7 +39,7 @@ const Second = () => {
           <div className="legend-items" style={style2}> <p className="" style={marginStyle}> <img className="legend-pic" src={blue} alt="..."></img> Inflow forecast station</p> </div>
           <div className="legend-items" style={style2}> <p className="" style={marginStyle}> <img className="legend-pic" src={voilet} alt="..."></img> Flood monitring station</p></div>
           <div className="legend-items" style={style2}> <p className="" style={marginStyle}>  <img className="legend-pic" src={lightBlue} alt="..."></img> Forecast available for inflow forecast station</p> </div>
-          <div className="legend-items" style={style2}> <p className="" style={marginStyle}> <img className="legend-pic" src={brown} alt="..."></img> Above normal flod</p> </div>
+          <div className="legend-items" style={style2}> <p className="" style={marginStyle}> <img className="legend-pic" src={brown} alt="..."></img> Above normal flood</p> </div>
           <div className="legend-items" style={style2}> <p className="" style={marginStyle}> <img className="legend-pic" src={orange} alt="..."></img> Severe flood</p></div>
           <div className="legend-items" style={style2}> <p className="" style={marginStyle}> <img className="legend-pic" src={red} alt="..."></img> Extreme flood</p></div>
         </div>
