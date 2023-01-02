@@ -20,11 +20,11 @@ const image = {
 }
 
 const mapRoute = {
-  0: 'https://express-mapbackend.herokuapp.com/',
-  99: 'https://express-mapbackend.herokuapp.com/1',
-  100: 'https://express-mapbackend.herokuapp.com/2',
-  101: 'https://express-mapbackend.herokuapp.com/3',
-  102: 'https://express-mapbackend.herokuapp.com/4',
+  0: 'https://express-backend-gjv8.onrender.com/',
+  99: 'https://express-backend-gjv8.onrender.com/1',
+  100: 'https://express-backend-gjv8.onrender.com/2',
+  101: 'https://express-backend-gjv8.onrender.com/3',
+  102: 'https://express-backend-gjv8.onrender.com/4',
 }
 
 function Final() {
