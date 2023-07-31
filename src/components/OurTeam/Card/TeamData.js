@@ -54,6 +54,17 @@ const Teams = [
           img: "https://media-exp1.licdn.com/dms/image/C4D03AQFyKkWsR8tP4Q/profile-displayphoto-shrink_200_200/0/1656515697305?e=2147483647&v=beta&t=BYR8U1lZ_eSHuzQ-x41WI1SRlDedUHNQ4m9KlGxf0TA"
   
       }
+    {
+        id: 6,
+        name: "Mainur Islam Ahmed",
+        College:
+          "National Institute of Technology Silchar",
+          branch: "Electrical Engineering Department",
+          linkedinId: "https://www.linkedin.com/in/mainur-islam-ahmed-613ab21ba",
+          FacebookId: "https://www.facebook.com/mainurislam.ahmed",
+          img: "https://media.licdn.com/dms/image/C5603AQFwwlJl6rsywA/profile-displayphoto-shrink_800_800/0/1605539175106?e=1696464000&v=beta&t=MTqspX7tw2jz4aUHvOpo681NR4CWtLVavicgEtLllIU"
+  
+      }
     
   ];
 
